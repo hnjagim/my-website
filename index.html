@@ -1,39 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Henry Njagi | About Me</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Henry Njagi | CV Site</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body { background-color: #f8f9fa; }
-    .profile-img { width: 150px; border-radius: 50%; margin-bottom: 20px; }
+    .nav-link.active { font-weight: bold; }
   </style>
 </head>
 <body>
-  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">Henry Njagi</a>
-      <div class="collapse navbar-collapse">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link active" href="index.html">About Me</a></li>
           <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
+          <li class="nav-item"><a class="nav-link" href="referees.html">Referees</a></li>
           <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- Content -->
-  <div class="container text-center mt-5">
-    <img src="my-photo.jpg" alt="Henry Njagi" class="profile-img" />
-    <h1>Henry Njagi</h1>
-    <h5>Data Scientist | Analytics Manager</h5>
-    <p class="mt-4">
-      I apply machine learning, statistics, and AI to solve real-world problems.
-      Currently pursuing a PhD in Statistics, I enjoy turning data into strategy.
-    </p>
+  <div class="container mt-5">
+    <h1 class="text-center">About Me</h1>
+    <p class="lead text-center">HENRY MURIMI NJAGI</p>
+
+    <div class="mt-4">
+      <h3>Career Objective</h3>
+      <p>Excellence in my task of achieving excellent output and results, as a team member, which adds value to the organization.</p>
+
+      <h3>Personal Details</h3>
+      <ul>
+        <li><strong>Gender:</strong> Male</li>
+        <li><strong>Nationality:</strong> Kenyan</li>
+      </ul>
+    </div>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
