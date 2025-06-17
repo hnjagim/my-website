@@ -2,68 +2,68 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Henry Njagi | Data Scientist</title>
+
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
   <style>
     body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: auto;
-      padding: 20px;
-      background-color: #f4f4f4;
+      background-color: #f8f9fa;
     }
-    img {
-      width: 150px;
+    .profile-img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
       border-radius: 50%;
-      display: block;
-      margin: 0 auto;
-    }
-    h1, h2 {
-      text-align: center;
+      border: 5px solid #fff;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     }
     .section {
       background: white;
-      padding: 20px;
-      margin-bottom: 20px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px #ccc;
-    }
-    a {
-      color: #0066cc;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      margin-top: 30px;
     }
   </style>
 </head>
 <body>
 
-  <img src="my-photo.jpg" alt="Henry Njagi">
-  <h1>Henry Njagi</h1>
-  <h2>Data Scientist | Analytics Manager at Proto Energy</h2>
+  <div class="container text-center mt-5">
+    <img src="my-photo.jpg" alt="Henry Njagi" class="profile-img mb-3" />
+    <h1 class="fw-bold">Henry Njagi</h1>
+    <h4 class="text-muted">Data Scientist | Analytics Manager at Proto Energy</h4>
+  </div>
 
-  <div class="section">
-    <h2>About Me</h2>
+  <div class="container section mt-5">
+    <h2 class="mb-3">About Me</h2>
     <p>
-      I am a data scientist with a strong background in Statistics and Artificial Intelligence. My expertise lies in applying machine learning algorithms, statistical modeling, and spatial-temporal analysis to drive strategic decisions. I have led data-driven projects and communicated insights clearly across business and technical teams.
+      I am a data scientist with a strong background in Statistics and Artificial Intelligence. My expertise lies in applying machine learning algorithms, statistical modeling, and spatial-temporal analysis to drive strategic decisions.
     </p>
     <p>
-      I hold a PhD in Statistics (ongoing), MSc in Applied Statistics, and a BSc in Mathematics and Computer Science.
+      I have led data-driven projects and communicated insights clearly across business and technical teams. I hold a PhD in Statistics (ongoing), MSc in Applied Statistics, and a BSc in Mathematics and Computer Science.
     </p>
   </div>
 
-  <div class="section">
-    <h2>Experience</h2>
-    <ul>
-      <li><strong>Data Analytics Manager</strong> – Proto Energy (2024–Present)</li>
-      <li><strong>Data Scientist</strong> – Proto Energy (2022–2024)</li>
-      <li><strong>Data Analyst</strong> – Proto Energy (2019–2022)</li>
-      <li><strong>Lecturer</strong> – Co-operative University, MKU, JKUAT (2018–Present)</li>
+  <div class="container section">
+    <h2 class="mb-3">Experience</h2>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item"><strong>Data Analytics Manager</strong> – Proto Energy (2024–Present)</li>
+      <li class="list-group-item"><strong>Data Scientist</strong> – Proto Energy (2022–2024)</li>
+      <li class="list-group-item"><strong>Data Analyst</strong> – Proto Energy (2019–2022)</li>
+      <li class="list-group-item"><strong>Lecturer</strong> – Co-operative University, MKU, JKUAT (2018–Present)</li>
     </ul>
   </div>
 
-  <div class="section">
-    <h2>Contact</h2>
-    <p>Email: hnjagi@protoenergy.com</p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/henry-njagi-713325149/" target="_blank">linkedin.com/in/henry-njagi</a></p>
+  <div class="container section mb-5">
+    <h2 class="mb-3">Contact</h2>
+    <p><strong>Email:</strong> <a href="mailto:hnjagi@protoenergy.com">hnjagi@protoenergy.com</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/henry-njagi-713325149/" target="_blank">linkedin.com/in/henry-njagi</a></p>
   </div>
 
+  <!-- Bootstrap JS (optional but good practice) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
